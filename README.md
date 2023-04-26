@@ -1,2 +1,2 @@
-# FitWepWDPAI
+# FitWebAppWDPAI
 Project for WDPAI
