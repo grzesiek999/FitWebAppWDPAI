@@ -8,6 +8,7 @@
     --menu-options-hov-color: wheat;
     --footer-text-color: #E2E2E2;
     --footer-background-color: #1A1A1A;
+    --content-text-color-1: white;
 }
 
 * {
@@ -18,4 +19,5 @@
 body {
     background-color: var(--body-background-color);
 }
+
 
