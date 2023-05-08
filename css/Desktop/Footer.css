@@ -1,0 +1,49 @@
+footer {
+    display: flex;
+    height: 175px;
+    background-color: var(--footer-background-color);
+}
+
+.footer-part-1 {
+    width: 83%;
+    margin-left: 2%;
+}
+
+.footer-part-2 {
+    width: 15%;
+}
+
+h5 {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: var(--footer-text-color);
+    font-size: 1.8rem;
+}
+
+h6 {
+    margin-bottom: 10px;
+    color: var(--footer-text-color);
+    font-size: 1.5rem;
+}
+
+.footer-part-2 img {
+    opacity: 0.92;
+    transition: all 0.5s ease-in-out;
+}
+
+.footer-part-2 img:hover {
+    opacity: 1;
+    transform: scale(1.08);
+}
+
+#fb {
+    width: 78px;
+    height: 78px;
+    margin-right: 3%;
+}
+
+#ins {
+    width: 69px;
+    height: 69px;
+    margin-left: 3%;
+}
