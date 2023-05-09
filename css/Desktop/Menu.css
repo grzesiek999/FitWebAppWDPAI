@@ -22,7 +22,7 @@ nav {
     color: var(--menu-logo-color);
     font-family: 'Permanent Marker', cursive;
     font-size: 2.8rem;
-    text-decoration: dotted;
+    text-decoration: none;
 }
 
 .header-nav-options {
@@ -33,7 +33,7 @@ nav {
 
 .header-nav-options a {
     color: var(--menu-options-color);
-    font-size: 1.8rem;
+    font-size: clamp(1.2rem, 1.75vw, 1.8rem);
     margin-right: 6.25%;
     text-decoration: none;
     transition: all 0.5s ease-in-out;
@@ -45,14 +45,14 @@ nav {
 }
 
 nav button {
-    width: 8vw;
-    height: 3.5vw;
+    width: clamp(90px, 9vw, 150px);
+    height: clamp(43px, 4vw, 66px);;
     background-color: var(--signup-button-color);
-    border: solid 4px var(--signup-button-border-color);
+    border: solid 3px var(--signup-button-border-color);
     color: var(--menu-options-color);
     border-radius: 100px;
     font-family: 'Arvo', serif;
-    font-size: 2rem;
+    font-size: clamp(1.25rem, 1.85vw, 2rem);
     font-weight: 700;
     cursor: pointer;
 }
