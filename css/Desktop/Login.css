@@ -1,0 +1,171 @@
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.container, span, input, .container a{
+    display: block;
+}
+
+.container {
+    position: relative;
+    margin-top: 100px;
+    width: 383px;
+    height: 414px;
+    background-color: var(--footer-background-color);
+    border-radius: 60px;
+    overflow: hidden;
+}
+
+.container::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 383px;
+    height: 414px;
+    background: linear-gradient(0deg, transparent, transparent, #45f3ff, #45f3ff, #45f3ff);
+    z-index: 1;
+    animation: login-panel-animation 6s linear infinite;
+    transform-origin: bottom right;
+}
+
+.container::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 383px;
+    height: 414px;
+    background: linear-gradient(0deg, transparent, transparent, #45f3ff, #45f3ff, #45f3ff);
+    z-index: 1;
+    animation: login-panel-animation 6s linear infinite;
+    transform-origin: bottom right;
+    animation-delay: -3s;
+}
+
+.login-panel-border{
+    position: absolute;
+    top: 0;
+    inset: 0;
+}
+
+.login-panel-border::before{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 383px;
+    height: 414px;
+    background: linear-gradient(0deg, transparent, transparent, #ff2770, #ff2770, #ff2770);
+    z-index: 1;
+    animation: login-panel-animation 6s linear infinite;
+    transform-origin: bottom right;
+    animation-delay: -1.5s;
+}
+
+.login-panel-border::after{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 383px;
+    height: 414px;
+    background: linear-gradient(0deg, transparent, transparent, #ff2770, #ff2770, #ff2770);
+    z-index: 1;
+    animation: login-panel-animation 6s linear infinite;
+    transform-origin: bottom right;
+    animation-delay: -4.5s;
+}
+
+.container form {
+    position: absolute;
+    inset: 3px;
+    padding: 30px 36px 15px 36px;
+    background-color: var(--footer-background-color);
+    border-radius: 60px;
+    z-index: 2;
+}
+
+.container span {
+    color: var(--menu-options-color);
+}
+
+.title-span {
+    font-family: 'Arvo', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.panel-span{
+    font-family: 'Arvo', serif;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.div-login-form-buttons {
+    margin-top: 10px;
+}
+
+.div-login-form-buttons button {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.div-login-form-buttons button[type=submit] {
+    width: 120px;
+    height: 50px;
+    background-color: var(--signup-button-color);
+    border: solid 3px var(--signup-button-border-color);
+    color: var(--menu-options-color);
+    border-radius: 100px;
+    font-family: 'Arvo', serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.div-login-form-buttons button[type=button] {
+    width: 190px;
+    height: 50px;
+    background-color: var(--signup-button-color);
+    border: solid 3px var(--signup-button-border-color);
+    color: var(--menu-options-color);
+    border-radius: 100px;
+    font-family: 'Arvo', serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.container input {
+    height: 32px;
+    width: 290px;
+    outline: none;
+    appearance: none;
+    border-radius: 12px;
+    border: solid 2px var(--menu-background-color);
+    padding-left: 10px;
+    font-size: 1.1rem;
+    background-color: var(--input-login-panel-fill-color);
+    color: var(--input-login-panel-text-color);
+}
+
+.a-passowrd-restore {
+    margin-top: 4px;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 1.02rem;
+    color: var(--menu-logo-color);
+}
+
+@keyframes login-panel-animation {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

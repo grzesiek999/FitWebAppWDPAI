@@ -16,6 +16,7 @@
     <link rel="stylesheet" type="text/css" href="../css/Desktop/Main.css">
     <link rel="stylesheet" type="text/css" href="../css/Desktop/Menu.css">
     <link rel="stylesheet" type="text/css" href="../css/Desktop/Footer.css">
+    <link rel="stylesheet" type="text/css" href="../css/Desktop/Login.css">
 
 
 </head>
@@ -34,7 +35,29 @@
          <a href="login"><button type="button">Sign in</button></a>
      </nav>
 
-     <footer>
+     <main>
+
+        <div class="content">
+            <div class="container">
+                <span class="login-panel-border"></span>
+                <form>
+                    <span class="title-span">Logowanie</span>
+                    <span class="panel-span">Adres email:</span>
+                    <input name="email" type="text" placeholder="email@gmail.com" onfocus="this.placeholder=''" onblur="this.placeholder='email@gmail.com'">
+                    <span class="panel-span">Hasło:</span>
+                    <input name="email" type="password" placeholder="password" onfocus="this.placeholder=''" onblur="this.placeholder='password'">
+                    <a class="a-passowrd-restore" href="#">Przywróc hasło</a>
+                    <div class="div-login-form-buttons">
+                        <button type="submit">Zaloguj</button>
+                        <a href="createAccount"><button type="button">Utwórz konto</button></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+     </main>
+
+     <footer style="position: fixed; bottom: 0;">
         <div class="footer-part-1">
             <h5>Chcesz dowiedzieć się więcej?</h5>
             <h6>Zadzwoń +48 827 635 152</h6>
