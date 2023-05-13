@@ -1,6 +1,6 @@
 :root{
     --body-background-color: #1E1D1D;
-    --menu-background-color: #000000;
+    --menu-background-color: #111111;
     --menu-options-color: white;
     --menu-logo-color: #0029FF;
     --signup-button-color: #65FF4B;
@@ -20,6 +20,10 @@
 
 body {
     background-color: var(--body-background-color);
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
-
+body::-webkit-scrollbar{
+    display: none;
+}

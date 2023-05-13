@@ -3,7 +3,7 @@
     justify-content: center;
 }
 
-.container, span, input, .container a{
+.container, span, input, label, .container a{
     display: block;
 }
 
@@ -87,18 +87,18 @@
     z-index: 2;
 }
 
-.container span {
+.container label {
     color: var(--menu-options-color);
 }
 
-.title-span {
+.title-label {
     font-family: 'Arvo', serif;
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 30px;
 }
 
-.panel-span{
+.panel-label{
     font-family: 'Arvo', serif;
     font-size: 1.1rem;
     margin-bottom: 5px;

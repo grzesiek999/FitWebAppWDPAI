@@ -1,0 +1,124 @@
+.content {
+    display: flex;
+    color: var(--menu-options-color);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    margin-top: 75px;
+    margin-left: 100px;
+}
+
+.content form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 45px;
+    width: 698px;
+    justify-content: flex-start;
+}
+
+.div-personal-data {
+    display: flex;
+    max-height: 301px;
+    flex-direction: column;
+    margin-right: 70px;
+    justify-content: flex-start;
+}
+
+.div-login-data {
+    display: flex;
+    max-height: 301px;
+    flex-direction: column;
+    margin-left: 70px;
+    justify-content: flex-start;
+
+}
+
+.data-label-title {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.main-label-tile {
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.data-label {
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.content form input {
+    height: 32px;
+    width: 290px;
+    outline: none;
+    appearance: none;
+    border-radius: 12px;
+    border: solid 2px var(--menu-background-color);
+    padding-left: 10px;
+    font-size: 1.1rem;
+    background-color: var(--input-login-panel-fill-color);
+    color: var(--menu-background-color);
+}
+
+.content form input[type=date] {
+    width: 145px;
+    padding-right: 5px;
+}
+
+.content form input[type=password] {
+    width: 200px;
+    padding-right: 5px;
+}
+
+.content form input[type=text] {
+    width: 240px;
+}
+
+.content form button {
+    margin-top: 50px;
+    margin-bottom: 200px;
+    display: block;
+    width: 190px;
+    height: 50px;
+    background-color: var(--signup-button-color);
+    border: solid 3px var(--signup-button-border-color);
+    color: var(--menu-options-color);
+    border-radius: 100px;
+    font-family: 'Arvo', serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.CreateAccountBanner-div {
+    margin-left: 15vw;
+    height: 850px;
+}
+
+.CreateAccountBanner-div img {
+    height: 850px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .CreateAccountBanner-div {
+        margin-left: 8vw;
+    }
+}
+
+@media only screen and (max-width: 1294px) {
+    .CreateAccountBanner-div {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 899px) {
+    .container {
+        margin-left: 50px;
+    }
+}
