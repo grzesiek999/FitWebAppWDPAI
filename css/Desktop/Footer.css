@@ -16,19 +16,6 @@ footer {
     width: 27%;
 }
 
-h5 {
-    margin-top: 25px;
-    margin-bottom: 20px;
-    color: var(--footer-text-color);
-    font-size: 1.8rem;
-}
-
-h6 {
-    margin-bottom: 10px;
-    color: var(--footer-text-color);
-    font-size: 1.5rem;
-}
-
 .footer-part-2 img {
     opacity: 0.92;
     transition: all 0.5s ease-in-out;
@@ -49,4 +36,19 @@ h6 {
     width: 69px;
     height: 69px;
     margin-left: 3%;
+}
+
+h5 {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: var(--content-text-color-4);
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+}
+
+h6 {
+    margin-bottom: 10px;
+    color: var(--content-text-color-4);
+    font-size: 1.5rem;
+    letter-spacing: 1px;
 }

@@ -1,14 +1,14 @@
 :root{
     --body-background-color: #1E1D1D;
     --menu-background-color: #111111;
-    --menu-options-color: white;
     --menu-logo-color: #0029FF;
     --signup-button-color: #65FF4B;
     --signup-button-border-color: #1AB700;
-    --menu-options-hov-color: wheat;
-    --footer-text-color: #E2E2E2;
     --footer-background-color: #1A1A1A;
     --content-text-color-1: white;
+    --content-text-color-2: black;
+    --content-text-color-3: wheat;
+    --content-text-color-4: #E2E2E2;
     --input-login-panel-fill-color: #CBCBCB;
     --input-login-panel-text-color: #767676;
 }

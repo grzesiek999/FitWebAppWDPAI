@@ -18,44 +18,47 @@ nav {
 .header-nav-logo {
     width: 25%;
     margin-left: 3%;
-    margin-right: 5%;
+    margin-right: 4%;
 }
 
 .header-nav-logo a {
     color: var(--menu-logo-color);
     font-family: 'Permanent Marker', cursive;
     font-size: 2.8rem;
+    letter-spacing: 4px;
     text-decoration: none;
 }
 
 .header-nav-options {
     display: flex;
     justify-content: center;
-    width: 55%;
+    width: 56%;
 }
 
 .header-nav-options a {
-    color: var(--menu-options-color);
+    color: var(--content-text-color-1);
     font-size: clamp(1.2rem, 1.75vw, 1.8rem);
-    margin-right: 6.25%;
+    letter-spacing: 1px;
+    margin-right: 5%;
     text-decoration: none;
     transition: all 0.5s ease-in-out;
 }
 
 .header-nav-options a:hover {
     transform: scale(1.1);
-    color: var(--menu-options-hov-color);
+    color: var(--content-text-color-3);
 }
 
 nav button {
-    width: clamp(90px, 9vw, 150px);
+    width: clamp(92px, 9vw, 150px);
     height: clamp(43px, 4vw, 66px);;
     background-color: var(--signup-button-color);
     border: solid 3px var(--signup-button-border-color);
-    color: var(--menu-options-color);
+    color: var(--content-text-color-1);
     border-radius: 100px;
     font-family: 'Arvo', serif;
     font-size: clamp(1.25rem, 1.85vw, 2rem);
+    letter-spacing: 1px;
     font-weight: 700;
     cursor: pointer;
 }

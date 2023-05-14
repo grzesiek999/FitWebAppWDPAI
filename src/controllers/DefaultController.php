@@ -14,9 +14,9 @@ class DefaultController extends AppController {
         $this->render('Login');
     }
 
-    public function articles()
+    public function trainings()
     {
-        $this->render('Articles');
+        $this->render('Trainings');
     }
 
     public function diets()
@@ -33,8 +33,19 @@ class DefaultController extends AppController {
     {
         $this->render('Information');
     }
+
     public function createAccount()
     {
         $this->render('CreateAccount');
+    }
+
+    public function createAccountSuccessful()
+    {
+        $this->render('CreateAccountSuccessful');
+    }
+
+    public function passwordRestore()
+    {
+        $this->render('PasswordRestore');
     }
 }

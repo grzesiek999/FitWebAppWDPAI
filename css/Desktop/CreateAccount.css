@@ -1,6 +1,6 @@
 .content {
     display: flex;
-    color: var(--menu-options-color);
+    color: var(--content-text-color-1);
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -31,7 +31,6 @@
     flex-direction: column;
     margin-left: 70px;
     justify-content: flex-start;
-
 }
 
 .data-label-title {
@@ -39,12 +38,14 @@
     margin-bottom: 10px;
     font-size: 1.5rem;
     font-weight: 700;
+    letter-spacing: 1px;
 }
 
 .main-label-tile {
     font-family: 'Arvo', serif;
     font-weight: 700;
     font-size: 1.8rem;
+    letter-spacing: 1px;
 }
 
 .data-label {
@@ -63,7 +64,7 @@
     padding-left: 10px;
     font-size: 1.1rem;
     background-color: var(--input-login-panel-fill-color);
-    color: var(--menu-background-color);
+    color: var(--content-text-color-2);
 }
 
 .content form input[type=date] {
@@ -88,7 +89,7 @@
     height: 50px;
     background-color: var(--signup-button-color);
     border: solid 3px var(--signup-button-border-color);
-    color: var(--menu-options-color);
+    color: var(--content-text-color-1);
     border-radius: 100px;
     font-family: 'Arvo', serif;
     font-size: 1.4rem;
