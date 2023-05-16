@@ -11,6 +11,8 @@
     --content-text-color-4: #E2E2E2;
     --input-login-panel-fill-color: #CBCBCB;
     --input-login-panel-text-color: #767676;
+    --calculate-button-color: #3752da;
+    --calculate-button-border: #0225d0;
 }
 
 * {

@@ -40,11 +40,11 @@ span {
     margin-right: auto;
     display: flex;
     justify-content: center;
-    width: 60%;
+    width: 600px;
 }
 
 .img05-div img{
-    max-width: 60%;
+    max-width: 600px;
     border-bottom: solid 1px var(--menu-background-color);
     -webkit-box-shadow: 0px 0px 10px 3px var(--content-text-color-2);
     -moz-box-shadow: 0px 0px 10px 3px var(--content-text-color-2);
@@ -86,7 +86,19 @@ span {
     margin-top: 120px;
 }
 
+@media only screen and (max-width: 1280px) {
+    .diets-div-describe {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+}
+
 .img04-div img{
+    width: 600px;
     border-bottom: solid 1px var(--menu-background-color);
     -webkit-box-shadow: 0px 0px 10px 3px var(--content-text-color-2);
     -moz-box-shadow: 0px 0px 10px 3px var(--content-text-color-2);
@@ -94,13 +106,25 @@ span {
 }
 
 .diets-describe {
-    padding-top: 80px;
-    margin-left: 100px;
+    padding-top: 40px;
+    margin-left: 50px;
     text-align: start;
     color: var(--content-text-color-1);
     font-size: 1.4rem;
     letter-spacing: 1px;
     line-height: 30px;
+}
+
+@media only screen and (max-width: 1280px) {
+    .diets-describe {
+        padding-top: 50px;
+        margin-left: 0px;
+        text-align: center;
+        color: var(--content-text-color-1);
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+        line-height: 30px;
+    }
 }
 
 .trainings-div-describe{
@@ -112,9 +136,20 @@ span {
     margin-top: 130px;
 }
 
+@media only screen and (max-width: 1280px) {
+    .trainings-div-describe{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 110px;
+    }
+}
+
 .training-describe {
-    padding-top: 80px;
-    margin-right: 80px;
+    padding-top: 40px;
+    margin-right: 50px;
     text-align: start;
     color: var(--content-text-color-1);
     font-size: 1.4rem;
@@ -122,7 +157,20 @@ span {
     line-height: 30px;
 }
 
+@media only screen and (max-width: 1280px) {
+    .training-describe {
+        padding-top: 50px;
+        margin-right: 0px;
+        text-align: center;
+        color: var(--content-text-color-1);
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+        line-height: 30px;
+    }
+}
+
 .img02-div img{
+    width: 600px;
     border-bottom: solid 1px var(--menu-background-color);
     -webkit-box-shadow: 0px 0px 10px 3px var(--content-text-color-2);
     -moz-box-shadow: 0px 0px 10px 3px var(--content-text-color-2);
