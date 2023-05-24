@@ -9,9 +9,9 @@ class DefaultController extends AppController {
         $this->render('HomePage');
     }
 
-    public function login()
+    public function loginPage()
     {
-        $this->render('Login');
+        $this->render('LoginPage');
     }
 
     public function trainings()

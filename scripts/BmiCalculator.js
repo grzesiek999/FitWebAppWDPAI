@@ -18,8 +18,8 @@ function calculate(){
     else if(bmi < 16) resultDivText.innerHTML = "Twoje BMI wskazuje na: Wygłodzenie";
     else resultDivText.innerHTML = "calculate error";
     bmi = bmi.toFixed(2);
-    resultDiv.innerHTML=bmi;
-    resultsContainer.style = "display: block;";
+    resultDiv.innerHTML="Twoje BMI wynosi: " + bmi;
+    resultsContainer.style = "display: flex;";
 }
 
 calculateButton.addEventListener('click', calculate);

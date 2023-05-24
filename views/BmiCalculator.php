@@ -14,10 +14,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="../css/Desktop/Main.css">
+    <link rel="stylesheet" type="text/css" href="../css/Main.css">
+
     <link rel="stylesheet" media="screen and (min-width: 800px)" type="text/css" href="../css/Desktop/Menu.css">
     <link rel="stylesheet" media="screen and (min-width: 800px)" type="text/css" href="../css/Desktop/Footer.css">
     <link rel="stylesheet" media="screen and (min-width: 800px)" type="text/css" href="../css/Desktop/BmiCalculator.css">
+
+    <link rel="stylesheet" media="screen and (max-width: 799px)" type="text/css" href="../css/Mobile/Menu.css">
+    <link rel="stylesheet" media="screen and (max-width: 799px)" type="text/css" href="../css/Mobile/Footer.css">
+    <link rel="stylesheet" media="screen and (max-width: 799px)" type="text/css" href="../css/Mobile/BmiCalculator.css">
 
     <script async src="../scripts/BmiCalculator.js"></script>
 
@@ -35,7 +40,7 @@
             <a href="trainings">Treningi</a>
             <a href="bmiCalculator">BMI kalkulator</a>
         </div>
-         <a href="login"><button type="button">Sign in</button></a>
+         <a href="loginPage"><button type="button">Sign in</button></a>
      </nav>
 
      <main>
@@ -56,7 +61,6 @@
                 <button id="b1" type="button">Oblicz</button>
             </div>
             <div class="results-container" style="display: none;">
-                <label class="second-title">Twoje BMI wynosi:</label>
                 <div class="result-div"></div>
                 <div class="text-result-div"></div>
 

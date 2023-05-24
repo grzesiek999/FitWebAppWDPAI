@@ -1,6 +1,11 @@
+footer {
+    position: static !important;
+}
+
 .content {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container, span, input, label, .container a{
@@ -9,8 +14,9 @@
 
 .container {
     position: relative;
-    margin-top: 100px;
-    width: 383px;
+    margin-top: 70px;
+    margin-bottom: 35px;
+    width: 351px;
     height: 414px;
     background-color: var(--footer-background-color);
     border-radius: 60px;
@@ -22,7 +28,7 @@
     position: absolute;
     top: -50%;
     left: -50%;
-    width: 383px;
+    width: 351px;
     height: 414px;
     background: linear-gradient(0deg, transparent, transparent, #45f3ff, #45f3ff, #45f3ff);
     z-index: 1;
@@ -35,7 +41,7 @@
     position: absolute;
     top: -50%;
     left: -50%;
-    width: 383px;
+    width: 351px;
     height: 414px;
     background: linear-gradient(0deg, transparent, transparent, #45f3ff, #45f3ff, #45f3ff);
     z-index: 1;
@@ -55,7 +61,7 @@
     position: absolute;
     top: -50%;
     left: -50%;
-    width: 383px;
+    width: 351px;
     height: 414px;
     background: linear-gradient(0deg, transparent, transparent, #ff2770, #ff2770, #ff2770);
     z-index: 1;
@@ -69,7 +75,7 @@
     position: absolute;
     top: -50%;
     left: -50%;
-    width: 383px;
+    width: 351px;
     height: 414px;
     background: linear-gradient(0deg, transparent, transparent, #ff2770, #ff2770, #ff2770);
     z-index: 1;
@@ -81,10 +87,11 @@
 .container form {
     position: absolute;
     inset: 3px;
-    padding: 30px 36px 15px 36px;
+    padding: 30px 20px 15px 20px;
     background-color: var(--footer-background-color);
     border-radius: 60px;
     z-index: 2;
+    text-align: center;
 }
 
 .container label {
@@ -93,7 +100,7 @@
 
 .title-label {
     font-family: 'Arvo', serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
     letter-spacing: 1.5px;
     font-weight: 700;
     margin-bottom: 30px;
@@ -112,7 +119,6 @@
 }
 
 .div-login-form-buttons button {
-    margin-right: 20px;
     margin-bottom: 10px;
 }
 
@@ -145,8 +151,10 @@
 }
 
 .container input {
+    margin-left: auto;
+    margin-right: auto;
     height: 32px;
-    width: 290px;
+    width: 250px;
     outline: none;
     appearance: none;
     border-radius: 12px;
@@ -159,7 +167,6 @@
 
 .a-passowrd-restore {
     margin-top: 4px;
-    margin-left: 10px;
     text-decoration: none;
     font-size: 1.02rem;
     color: var(--menu-logo-color);
@@ -172,4 +179,9 @@
     100%{
         transform: rotate(360deg);
     }
+}
+
+.messages {
+    margin-bottom: 40px;
+    color: var(--login-error-comunicate-color);
 }

@@ -7,7 +7,7 @@ $path = parse_url( $path, PHP_URL_PATH);
 
 Routing::get('', 'DefaultController');
 Routing::get('homepage', 'DefaultController');
-Routing::get('login', 'DefaultController');
+Routing::get('loginPage', 'DefaultController');
 Routing::get('trainings', 'DefaultController');
 Routing::get('diets', 'DefaultController');
 Routing::get('bmiCalculator', 'DefaultController');
@@ -15,5 +15,7 @@ Routing::get('information', 'DefaultController');
 Routing::get('createAccount', 'DefaultController');
 Routing::get('createAccountSuccessful', 'DefaultController');
 Routing::get('passwordRestore', 'DefaultController');
+
+Routing::post('login', 'SecurityController');
 
 Routing::run($path);

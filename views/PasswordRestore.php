@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign up</title>
+    <title>Restoring password</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,11 +13,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="../css/Desktop/Main.css">
+    <link rel="stylesheet" type="text/css" href="../css/Main.css">
+
     <link rel="stylesheet" media="screen and (min-width: 800px)" type="text/css" href="../css/Desktop/Menu.css">
     <link rel="stylesheet" media="screen and (min-width: 800px)" type="text/css" href="../css/Desktop/Footer.css">
-    <link rel="stylesheet" media="screen and (min-width: 800px)" type="text/css" href="../css/Desktop/Login.css">
+    <link rel="stylesheet" media="screen and (min-width: 800px)" type="text/css" href="../css/Desktop/PasswordRestore.css">
 
+    <link rel="stylesheet" media="screen and (max-width: 799px)" type="text/css" href="../css/Mobile/Menu.css">
+    <link rel="stylesheet" media="screen and (max-width: 799px)" type="text/css" href="../css/Mobile/Footer.css">
+    <link rel="stylesheet" media="screen and (max-width: 799px)" type="text/css" href="../css/Mobile/PasswordRestore.css">
 
 </head>
 <body>
@@ -25,35 +29,29 @@
     <nav class="sticky">
         <div class="header-nav-logo">
              <a href="homepage">Stay Fit</a>
-         </div>
+        </div>
          <div class="header-nav-options">
             <a href="information">Informacje</a>
             <a href="diets">Diety</a>
             <a href="trainings">Treningi</a>
             <a href="bmiCalculator">BMI kalkulator</a>
         </div>
-         <a href="login"><button type="button">Sign in</button></a>
-     </nav>
+         <a href="loginPage"><button type="button">Sign in</button></a>
+    </nav>
 
-     <main>
+    <main>
         <div class="content">
             <div class="container">
                 <span class="login-panel-border"></span>
                 <form>
-                    <label class="title-label">Logowanie</label>
-                    <label class="panel-label">Adres email:</label>
+                    <label class="title-label">Przywracanie hasła</label>
+                    <label class="panel-label">Podaj powiązany z kontem użytkownika adres email, a następnie wyślemy Ci na niego link umożliwiający przywrócenie hasła</label>
                     <input name="email" type="email" placeholder="email@gmail.com" onfocus="this.placeholder=''" onblur="this.placeholder='email@gmail.com'">
-                    <label class="panel-label">Hasło:</label>
-                    <input name="password" type="password" placeholder="password" onfocus="this.placeholder=''" onblur="this.placeholder='password'">
-                    <a class="a-passowrd-restore" href="passwordRestore">Przywróc hasło</a>
-                    <div class="div-login-form-buttons">
-                        <button type="submit">Zaloguj</button>
-                        <a href="createAccount"><button type="button">Utwórz konto</button></a>
-                    </div>
+                    <button type="submit">Wyślij link</button>
                 </form>
             </div>
         </div>
-     </main>
+    </main>
 
      <footer style="position: fixed; bottom: 0;">
         <div class="footer-part-1">
@@ -67,6 +65,6 @@
             <a href="#"><img id="ins" src="../public/images/Icons/inst_icon.png" alt="inst icon error"></a>
         </div>
     </footer>
-    
+
 </body>
 </html>
