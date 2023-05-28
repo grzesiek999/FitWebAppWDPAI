@@ -5,12 +5,14 @@ class User {
     private $password;
     private $name;
     private $surname;
+    private $birthDate;
 
-    public function __construct(string $email, string $password, string $name, string $surname) {
+    public function __construct(string $email, string $password, string $name, string $surname, string $birthDate) {
         $this->email = $email;
         $this->password = $password;
         $this->name = $name;
         $this->surname = $surname;
+        $this->birthDate = $birthDate;
     }
 
     public function setEmail(string $email) {
@@ -29,6 +31,10 @@ class User {
         $this->surname = $surname;
     }
 
+    public function setBirthDate(string $birthDate) {
+        $this->birthDate = $birthDate;
+    }
+
     public function getEmail(): string {
         return $this->email;
     }
@@ -43,5 +49,9 @@ class User {
 
     public function getSurname(): string {
         return $this->surname;
+    }
+
+    public function getBirthDate(): string {
+        return $this->birthDate;
     }
 }
