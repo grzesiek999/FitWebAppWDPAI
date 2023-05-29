@@ -17,5 +17,6 @@ Routing::get('createAccountSuccessful', 'DefaultController');
 Routing::get('passwordRestore', 'DefaultController');
 
 Routing::post('login', 'SecurityController');
+Routing::post('register', 'SecurityController');
 
 Routing::run($path);

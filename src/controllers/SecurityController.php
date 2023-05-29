@@ -32,4 +32,31 @@ class SecurityController extends AppController {
 
         return $this->render('HomePage');
     }
+
+    public function register() {
+
+        $userRepository = new UserRepository();
+
+        if (!$this->isPost()) {
+            return $this->render('CreateAccount');
+        }
+
+        $user_name = $_POST['name'];
+        $user_surname = $_POST['surname'];
+        $birth_date = $_POST['date'];
+        $user_email = $_POST['email'];
+        $user_password = $_POST['password'];
+        $confirmedPassword = $_POST['password-repeat'];
+        
+
+        if ($user_password !== $confirmedPassword) {
+            return $this->render('CreateAccount', ['messages' => ['Podane hasła różnią się od siebie !']]);
+        }
+
+        $user = new User($user_email, $user_password, $user_name, $user_surname, $birth_date);
+        
+        $userRepository->addUser($user);
+
+        return $this->render('CreateAccountSuccessful');
+    }
 }

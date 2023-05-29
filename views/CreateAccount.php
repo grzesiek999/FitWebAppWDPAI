@@ -34,7 +34,7 @@
         <div class="content">
             <div class="container">
                 <label class="main-label-tile">Wypełnij formularz:</label>
-                <form>
+                <form action="register" method="POST">
                     <div class="div-personal-data">
                         <label class="data-label-title">Dane osobowe:</label>
                         <label class="data-label">Twoje imię:</label>
@@ -52,6 +52,15 @@
                         <input name="password" type="password">
                         <label class="data-label">Powtórz hasło:</label>
                         <input name="password-repeat" type="password">
+                        <div class="messages">
+                            <?php
+                                if(isset($messages)){
+                                    foreach($messages as $message) {
+                                        echo $message;
+                                    }
+                                }
+                            ?>
+                        </div>
                     </div>
                     <div><button type="submit">Utwórz konto</button></div>
                 </form>

@@ -103,3 +103,8 @@ footer {
 .CreateAccountBanner-div {
     display: none;
 }
+
+.messages {
+    margin-top: 25px;
+    color: var(--login-error-comunicate-color);
+}

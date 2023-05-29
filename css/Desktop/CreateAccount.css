@@ -123,3 +123,8 @@
         margin-left: 50px;
     }
 }
+
+.messages {
+    margin-top: 25px;
+    color: var(--login-error-comunicate-color);
+}
