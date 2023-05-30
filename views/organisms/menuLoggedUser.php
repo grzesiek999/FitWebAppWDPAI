@@ -8,5 +8,5 @@
         <a href="trainings">Treningi</a>
         <a href="bmiCalculator">BMI kalkulator</a>
     </div>
-     <a href="loginPage"><button class="login-button" type="button">Sign in</button></a>
+     <a href="unloadedPage"><button class="logout-button" type="button">Logout</button></a>
 </nav>

@@ -49,11 +49,25 @@ nav {
     color: var(--content-text-color-3);
 }
 
-nav button {
+.login-button {
     width: clamp(92px, 9vw, 150px);
     height: clamp(43px, 4vw, 66px);;
     background-color: var(--signup-button-color);
     border: solid 3px var(--signup-button-border-color);
+    color: var(--content-text-color-1);
+    border-radius: 100px;
+    font-family: 'Arvo', serif;
+    font-size: clamp(1.25rem, 1.85vw, 2rem);
+    letter-spacing: 1px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.logout-button {
+    width: clamp(100px, 9vw, 160px);
+    height: clamp(43px, 4vw, 66px);;
+    background-color: var(--login-error-comunicate-color);
+    border: solid 3px rgb(223, 14, 14);
     color: var(--content-text-color-1);
     border-radius: 100px;
     font-family: 'Arvo', serif;

@@ -1,0 +1,30 @@
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    width: 450px;
+    height: 150px;
+    background-color: var(--footer-background-color);
+    color: var(--content-text-color-1);
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 0px 10px 0px var(--menu-background-color);
+    -moz-box-shadow: 0px 0px 10px 0px var(--menu-background-color);
+    box-shadow: 0px 0px 10px 0px var(--menu-background-color);
+}
+
+.container label {
+    font-family: 'Arvo', serif;
+}
+
+.main-title-label{
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    color: var(--signup-button-color);
+    margin-bottom: 15px;
+}

@@ -48,4 +48,9 @@ class DefaultController extends AppController {
     {
         $this->render('PasswordRestore');
     }
+
+    public function unloadedPage()
+    {
+        $this->render('UnloadedPage');
+    }
 }

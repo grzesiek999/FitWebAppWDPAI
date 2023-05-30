@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,13 +28,16 @@
     <link rel="stylesheet" media="screen and (max-width: 799px)" type="text/css" href="../css/Mobile/Footer.css">
     <link rel="stylesheet" media="screen and (max-width: 799px)" type="text/css" href="../css/Mobile/BmiCalculator.css">
 
-    <script async src="../scripts/BmiCalculator.js"></script>
+    <script defer src="../scripts/BmiCalculator.js"></script>
 
 
 </head>
 <body>
     
-    <? include("organisms/menu.php"); ?>
+    <?
+        if ($_SESSION["username"] == null) include("organisms/menu.php");
+        else include("organisms/menuLoggedUser.php");
+    ?>
 
     <main>
         <div class="content">

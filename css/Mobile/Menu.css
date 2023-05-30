@@ -36,12 +36,27 @@ nav {
     border-bottom: 1px solid var(--body-background-color);
 }
 
-nav button {
+.login-button {
     margin-top: 10px;
     width: 120px;
     height: 50px;
     background-color: var(--signup-button-color);
     border: solid 3px var(--signup-button-border-color);
+    color: var(--content-text-color-1);
+    border-radius: 100px;
+    font-family: 'Arvo', serif;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.logout-button {
+    margin-top: 10px;
+    width: 120px;
+    height: 50px;
+    background-color: var(--login-error-comunicate-color);
+    border: solid 3px rgb(223, 14, 14);
     color: var(--content-text-color-1);
     border-radius: 100px;
     font-family: 'Arvo', serif;

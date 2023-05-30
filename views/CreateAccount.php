@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,7 +32,10 @@
 </head>
 <body>
     
-    <? include("organisms/menu.php"); ?>
+    <?
+        if ($_SESSION["username"] == null) include("organisms/menu.php");
+        else include("organisms/menuLoggedUser.php");
+    ?>
 
     <main>
         <div class="content">

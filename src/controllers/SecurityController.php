@@ -30,6 +30,10 @@ class SecurityController extends AppController {
             return $this->render('LoginPage', ['messages' => ['Wrong password!']]);
         }
 
+        session_start();
+
+        $_SESSION['username'] = $user->getName();
+
         return $this->render('HomePage');
     }
 
