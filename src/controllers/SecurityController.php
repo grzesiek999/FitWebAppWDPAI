@@ -14,7 +14,7 @@ class SecurityController extends AppController {
         }
 
         $email = $_POST["email"];
-        $password = $_POST["password"];
+        $password = md5($_POST["password"]);
 
         $user = $userRepository->getUser($email);
 
@@ -57,7 +57,7 @@ class SecurityController extends AppController {
             return $this->render('CreateAccount', ['messages' => ['Podane hasła różnią się od siebie !']]);
         }
 
-        $user = new User($user_email, $user_password, $user_name, $user_surname, $birth_date);
+        $user = new User($user_email, md5($user_password), $user_name, $user_surname, $birth_date);
         
         $userRepository->addUser($user);
 

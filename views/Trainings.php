@@ -28,6 +28,7 @@
     <link rel="stylesheet" media="screen and (max-width: 799px)" type="text/css" href="../css/Mobile/Footer.css">
     <link rel="stylesheet" media="screen and (max-width: 799px)" type="text/css" href="../css/Mobile/Trainings.css">
 
+    <script defer src="../scripts/Trainings.js"></script>
 
 </head>
 <body>
