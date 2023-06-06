@@ -12,5 +12,57 @@
 }
 
 .container {
-    height: 750px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+}
+
+h3 {
+    color: var(--content-text-color-3);
+    font-size: 1.5rem;
+}
+
+.diet-title-div {
+    margin-right: 75px;
+    width: 350px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    border: solid 3px var(--menu-background-color);
+    background-color: var(--menu-background-color);
+    cursor: pointer;
+    transition: all 0.7s ease-in-out;
+}
+
+.diet-title-div:hover {
+    background-color: var(--footer-background-color);
+}
+
+.diet-content-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    padding: 20px;
+    border-radius: 8px;
+    color: var(--content-text-color-1);
+    font-size: 1.3rem;
+    border: solid 3px var(--menu-background-color);
+    background-color: var(--menu-background-color);
+}
+
+.diet-content-div button {
+    margin-top: 20px;
+    width: 130px;
+    height: 50px;
+    background-color: var(--signup-button-color);
+    border: solid 3px var(--signup-button-border-color);
+    color: var(--content-text-color-1);
+    border-radius: 100px;
+    font-family: 'Arvo', serif;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    cursor: pointer;
 }
