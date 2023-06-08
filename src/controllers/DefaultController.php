@@ -53,4 +53,9 @@ class DefaultController extends AppController {
     {
         $this->render('UnloadedPage');
     }
+
+    public function userAccountPage()
+    {
+        $this->render('UserAccountPage');
+    }
 }
