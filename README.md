@@ -75,10 +75,4 @@
 
 ### The next command:
 
-### docker-compose build
-
-<br/>
-
-### After building docker use that command
-
 ### docker-compose up
