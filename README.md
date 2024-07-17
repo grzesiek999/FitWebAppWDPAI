@@ -1,8 +1,8 @@
 # FitWebApp
 
-## Used technologies:
+### Used technologies:
 
-### Docker
+#### Docker
 
 ### PHP
 
