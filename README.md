@@ -13,3 +13,5 @@
 <li>JavaScript</li>
 
 <li>PostgreSQL</li>
+
+<li>Figma</li>
