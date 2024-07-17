@@ -2,14 +2,14 @@
 
 ### Used technologies:
 
-#### Docker
+<li>Docker</li>
 
-### PHP
+<li>PHP</li>
 
-### CSS
+<li>CSS</li>
 
-### HTML5
+<li>HTML5</li>
 
-### JavaScript
+<li>JavaScript</li>
 
-### PostgreSQL
+<li>PostgreSQL</li>
