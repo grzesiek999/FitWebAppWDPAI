@@ -1,5 +1,7 @@
 # FitWebApp
 
+Project for study subject - "Entry to Programming Web Applications". Project goal was learn pure, basic web development languages and technologies.
+
 ### Used technologies:
 
 <li>Docker</li>
