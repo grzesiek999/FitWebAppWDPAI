@@ -18,7 +18,7 @@
 
 
 ### Run
-## Instal docker on your computer,
+Instal docker on your computer,
 Open terminal in dictionary with websites files,
 
 Use command:
