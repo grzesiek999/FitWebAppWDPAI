@@ -18,9 +18,9 @@
 
 
 ### Run
-Instal docker on your computer,
+Instal docker on your computer
 </br>
-Open terminal in dictionary with websites files,
+Open terminal in dictionary with websites files
 </br>
 </br>
 Use command:
@@ -30,4 +30,4 @@ docker-compose up
 </br>
 Open in your Web browser:
 </br>
-localhost:8001
+localhost:8080
