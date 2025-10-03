@@ -15,3 +15,14 @@
 <li>PostgreSQL</li>
 
 <li>Figma</li>
+
+
+### Run
+## Instal docker on your computer,
+Open terminal in dictionary with websites files,
+
+Use command:
+docker-compose up
+
+Open in your Web browser:
+localhost:8001
